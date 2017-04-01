@@ -1,7 +1,3 @@
-# BDD and Conversations
-
-## Users stories with Behat Samples
-
 Feature: Post Scheduling
   In order to build up the schedule (WHY)
   As an adminstrator (WHO)
