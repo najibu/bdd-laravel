@@ -2,27 +2,27 @@
 
 ## Users stories with Behat Samples
 
-Feature: Post Scheduling
+Feature: Post Scheduling<br /> 
   In order to build up the schedule (WHY)
-  As an adminstrator (WHO)
-  I need to schedule posts for future dates (WHAT)
+  As an adminstrator (WHO)<br />
+  I need to schedule posts for future dates (WHAT)<br />
 
-  Scenario: scheduling a post for tomorrow
-    Given I have a post "Old Post"
-    And I have a scheduled post "Schedule Post"
-    When I view all posts
-    Then the "Scheduled Post" post should not be in the list
+  Scenario: scheduling a post for tomorrow<br />
+    Given I have a post "Old Post"<br />
+    And I have a scheduled post "Schedule Post"<br />
+    When I view all posts<br />
+    Then the "Scheduled Post" post should not be in the list<br />
 
 
-Feature: Collections
-  In order to give students a path to work through on one subject  (WHY)
-  As an adminstrator (WHO)
-  I need to offer collections on the site (WHAT)
+Feature: Collections<br />
+  In order to give students a path to work through on one subject  (WHY)<br />
+  As an adminstrator (WHO)<br />
+  I need to offer collections on the site (WHAT)<br />
 
-  Scenario: Grouping testing-specific lessons 
-    Given I have a collection "Testing Collection"
-    And I add a lesson "Some Testing Lesson" to the collection
-    And I add a lesson "Some Testing Series" to the collection
-    When I view the collection
-    Then the "Some Testing Lesson" lesson should not be in the list
-    Then the "Some Testing Series" lesson should not be in the list
+  Scenario: Grouping testing-specific lessons<br /> 
+    Given I have a collection "Testing Collection"<br />
+    And I add a lesson "Some Testing Lesson" to the collection<br />
+    And I add a lesson "Some Testing Series" to the collection<br />
+    When I view the collection<br />
+    Then the "Some Testing Lesson" lesson should not be in the list<br />
+    Then the "Some Testing Series" lesson should not be in the list<br />
